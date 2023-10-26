@@ -350,7 +350,10 @@ function processParameters(heatpumpParameters, heatpumpVisibility) {
         'thermal_desinfection_on_friday': heatpumpParameters[24], 
         'thermal_desinfection_on_saturday': heatpumpParameters[25], 
         'thermal_desinfection_on_sunday': heatpumpParameters[26], 
-        'thermal_desinfection_continuous_operation': heatpumpParameters[27] 
+        'thermal_desinfection_continuous_operation': heatpumpParameters[27],
+        
+        // hot water extra
+        'hotWaterExtra': heatpumpParameters[1052] // Unknown("ID_Einst_Warmwasser_extra") 
     
     };
 }
